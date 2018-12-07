@@ -172,39 +172,6 @@ div.wrap {
   }
 
 /* Desktop */ 
-@media(min-width: 760px){
-    body{
-        max-width: 960px;
-        min-width: 420px; 
-        margin: auto; 
-    }
-    div.wrap, .image{
-        max-width: 850px;
-        height: 100%; 
-        max-height: 350px; 
-        margin-top: 10px;
-        margin-bottom: 20px; 
-    }
-
-    .article p{
-        width: 48%; 
-        float: left; 
-        font-size: 1.2em;
-        margin-right: 2%; 
-    }
-
-  
-
-
-
-
-
-
-
-
-
-}
-
 @media (min-width: 760px) {
   body {
     max-width: 960px;
@@ -240,4 +207,26 @@ div.wrap {
   /* .float-right{
       float: right;
   } */
+
+  body{
+    max-width: 960px;
+    min-width: 420px; 
+    margin: auto; 
 }
+div.wrap, .image{
+    max-width: 850px;
+    height: 100%; 
+    max-height: 350px; 
+    margin-top: 10px;
+    margin-bottom: 20px; 
+}
+
+.article p{
+    width: 48%; 
+    float: left; 
+    font-size: 1.2em;
+    margin-right: 2%; 
+}
+
+
+} /* slut på media */
