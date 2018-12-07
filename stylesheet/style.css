@@ -1,4 +1,18 @@
 /* Generella */
+@font-face{
+    font-family: "Chakra Petch", sans-serif; 
+    src: url(https://fonts.googleapis.com/css?family=Chakra+Petch); 
+}
+
+@font-face{
+    font-family: "Bai Jamjuree", sans-serif; 
+    src: url(https://fonts.googleapis.com/css?family=Bai+Jamjuree);
+}
+
+@font-face{
+    font-family: "Open Sans Condensed", sans-serif; 
+    src: url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300); 
+}
 
 *{
     box-sizing: border-box; 
@@ -6,6 +20,7 @@
 
 body{
     font-family: "open sans condensed", sans-serif; 
+    background-color: rgb(235, 235, 228);
 }
 
 h1, h2, h3{
@@ -21,9 +36,6 @@ a{
     display: block; 
 }
 
-ul, li{
-    list-style-type: none;
-}
 
 /* Mobil */
 
@@ -35,11 +47,12 @@ ul, li{
 
 .dropbtn {
     width: 100%; 
-    background-color: #4CAF50;
+    background-color: rgb(91, 120, 131);
     color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
+    border-radius: 7px; 
 }
 
 .dropdown {
@@ -55,10 +68,11 @@ ul, li{
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1ef;
+    background-color: #ddbc95;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    border-radius: 7px; 
 }
 
 .dropdown-content a {
@@ -72,7 +86,7 @@ ul, li{
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {background-color: #626D71;}
 
 footer{
     width: 100%;
@@ -81,11 +95,76 @@ footer{
 }
 
 .text-margin{
-    margin: 0px 5px;
+    margin: 5px 5px 0px;
 }
 
 img{
     width: 99%; 
 }
 
+  div.container figure{
+      margin: 5px;
+      margin-bottom: 20px; 
+  }
+
 /* Desktop */ 
+
+
+
+/* test */
+
+div.wrap,
+.image {
+  width: 100%; 
+  max-width: 375px;
+  position: relative;
+  margin: auto; 
+}
+
+div.wrap {
+  height: 100%;
+  max-height: 165px;
+  background: rgb(235, 235, 228);
+  font-size: 0;
+  line-height: 0;
+  padding-top: 10px; 
+  overflow: hidden; /* Döljer allt utanför */
+  white-space: nowrap; /* Får text osv att ligga på samma rad */
+}
+
+.image {
+  color: #FFF;
+  display: inline-block;
+  font-size: 20px;
+  height: 100%;
+  margin: 0;
+  text-align: center;
+}
+
+.image:first-child {
+  animation: slide 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+
+@keyframes slide {
+    0%, 15% {
+      margin-left: 0;
+    }
+    20%, 35% {
+      margin-left: -100%;
+    }
+    40%, 55% {
+      margin-left: -200%;
+    }
+    60%, 75% {
+      margin-left: -300%;
+    }
+    80%, 95%{
+        margin-left: -400%;
+    }
+    100%{
+        margin-left: -500%;
+    }
+  }
+
