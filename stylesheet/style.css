@@ -168,7 +168,6 @@ div.wrap {
     }
   }
 
-
 /* Desktop */ 
 @media(min-width: 760px){
     body{
@@ -181,13 +180,16 @@ div.wrap {
         height: 100%; 
         max-height: 350px; 
         margin-top: 10px;
-        margin-bottom: 30px; 
+        margin-bottom: 20px; 
     }
 
     .article p{
-        width: 50%; 
+        width: 48%; 
         float: left; 
+        font-size: 1.2em;
+        margin-right: 2%; 
     }
+
   
 
 
