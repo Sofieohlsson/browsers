@@ -36,13 +36,17 @@ a{
     display: block; 
 }
 
-
 /* Mobil */
 
 .container{
     width: 100%;
     margin-left: auto; 
     margin-right: auto; 
+}
+
+p{
+    padding-left: 7px; 
+    padding-right: 10px; 
 }
 
 .dropbtn {
@@ -102,16 +106,12 @@ img{
     width: 99%; 
 }
 
-  div.container figure{
+div.container figure{
       margin: 5px;
       margin-bottom: 20px; 
   }
 
-/* Desktop */ 
-
-
-
-/* test */
+  /* slideshow */
 
 div.wrap,
 .image {
@@ -167,4 +167,39 @@ div.wrap {
         margin-left: -500%;
     }
   }
+
+
+/* Desktop */ 
+@media(min-width: 760px){
+    body{
+        max-width: 960px;
+        min-width: 420px; 
+        margin: auto; 
+    }
+    div.wrap, .image{
+        max-width: 850px;
+        height: 100%; 
+        max-height: 350px; 
+        margin-top: 10px;
+        margin-bottom: 30px; 
+    }
+
+    .article p{
+        width: 50%; 
+        float: left; 
+    }
+  
+
+
+
+
+
+
+
+
+
+}
+
+
+
 
