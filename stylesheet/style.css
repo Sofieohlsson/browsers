@@ -208,11 +208,6 @@ div.wrap {
       float: right;
   } */
 
-  body{
-    max-width: 960px;
-    min-width: 420px; 
-    margin: auto; 
-}
 div.wrap, .image{
     max-width: 850px;
     height: 100%; 
@@ -226,6 +221,37 @@ div.wrap, .image{
     float: left; 
     font-size: 1.2em;
     margin-right: 2%; 
+}
+
+.info-box{
+    width: 80%;
+    float: right; 
+}
+
+.nav-box{
+    width: 20%; 
+    float: left;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.timeline-float{
+    width: 48%; 
+    float: left; 
+    margin-right: 1%; 
+
+}
+
+figure img{
+    height: 300px; 
+}
+
+figure img:hover{
+    transform: scale(1.5); 
+    margin-top: 70px; 
+    margin-bottom: 30px; 
 }
 
 
