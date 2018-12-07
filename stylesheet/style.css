@@ -20,7 +20,12 @@
 
 body{
     font-family: "open sans condensed", sans-serif; 
-    background-color: rgb(235, 235, 228);
+    background-color: rgb(232, 198, 198);
+}
+div.info-box{
+    background-color: white;
+    padding-bottom: 10px;
+    border-radius: 4px;
 }
 
 h1, h2, h3{
@@ -109,7 +114,7 @@ p, h1, h2, h3{
     bottom: 10px;
     border-radius: 4px;
     margin: 0px auto;
-    margin-top: 20%;
+    margin-top: 30%;
 }
 .footer-text{
     padding-top: 10px;
