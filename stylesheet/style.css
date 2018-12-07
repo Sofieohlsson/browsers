@@ -96,6 +96,9 @@ p, h1, h2, h3{
 .dropdown:hover .dropbtn {
   background-color: #626d71;
 }
+#nav-desktop, #nav-desktop-side{
+    display: none;
+}
 
 .footer {
     width: 100%;
@@ -239,6 +242,9 @@ div.wrap {
         background-color: #626d71;
     }
     /* Side Nav */
+    #nav-desktop-side{
+        display: block;
+    }
     #nav-desktop-side ul{
         margin: 0;
         padding: 0;
