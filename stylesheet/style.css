@@ -109,9 +109,10 @@ p, h1, h2, h3{
     bottom: 10px;
     border-radius: 4px;
     margin: 0px auto;
-    margin-top: 40%;
+    margin-top: 20%;
 }
 .footer-text{
+    padding-top: 10px;
     color:white;
     margin-left: 5%;
 }
@@ -314,3 +315,4 @@ figure img:hover{
 
 
 } /* slut på media */
+
