@@ -39,6 +39,10 @@ ul li {
   list-style-type: none;
 }
 
+.disc{
+    list-style-type: disc; 
+}
+
 /* Mobil */
 
 .container{
@@ -213,16 +217,16 @@ div.wrap {
       display: block;
   }
   #nav-desktop ul{
-      list-style-type: none;
       margin: 0;
       padding: 0;
       background-color: rgb(91, 120, 131);
       border-radius: 7px;
       display: flex;
       justify-content: space-evenly;
-  }
-  #nav-desktop li{
-      display: inline-block;    
+    }
+    #nav-desktop li{
+        display: inline-block;    
+        list-style-type: none;
   }
   #nav-desktop a {
       color: white;
