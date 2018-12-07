@@ -35,6 +35,9 @@ a{
     text-decoration: none;
     display: block; 
 }
+ul li {
+  list-style-type: none;
+}
 
 /* Mobil */
 
@@ -202,6 +205,39 @@ div.wrap {
 
 }
 
-
-
-
+@media (min-width: 760px) {
+  body {
+    max-width: 960px;
+    min-width: 420px;
+    margin: auto;
+  }
+  .dropdown {
+    display: none;
+  }
+  #nav-desktop{
+      display: block;
+  }
+  #nav-desktop ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      background-color: rgb(91, 120, 131);
+      border-radius: 7px;
+      display: flex;
+      justify-content: space-evenly;
+  }
+  #nav-desktop li{
+      display: inline-block;    
+  }
+  #nav-desktop a {
+      color: white;
+      padding: 8px;
+      width: 20%;
+  }
+  #nav-desktop li:hover{
+    background-color: #626d71;
+  }
+  /* .float-right{
+      float: right;
+  } */
+}
