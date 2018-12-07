@@ -47,7 +47,7 @@ ul li {
     margin-right: auto; 
 }
 
-p{
+p, h1, h2, h3{
     padding-left: 7px; 
     padding-right: 10px; 
 }
@@ -224,7 +224,7 @@ div.wrap, .image{
 }
 
 .info-box{
-    width: 80%;
+    width: 78%;
     float: right; 
 }
 
@@ -237,7 +237,7 @@ div.wrap, .image{
     clear: both;
 }
 
-.timeline-float{
+figure{
     width: 48%; 
     float: left; 
     margin-right: 1%; 
