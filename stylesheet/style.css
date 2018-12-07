@@ -1,4 +1,4 @@
-/* Generella */
+/* Generella */ 
 @font-face {
   font-family: "Chakra Petch", sans-serif;
   src: url(https://fonts.googleapis.com/css?family=Chakra+Petch);
@@ -96,20 +96,28 @@ a {
 }
 
 .footer {
-  width: 100%;
-  height: 150px;
-  background: #000;
-  position: fixed;
-  padding-bottom: 2px;
-  bottom: 10px;
-  border-radius: 7px;
+    width: 100%;
+    height: 20%;
+    background: #000;
+    position: relative;
+    padding-bottom: 2px;
+    bottom: 10px;
+    border-radius: 7px;
+    margin: 0px auto;
+    margin-top: 20%;
+}
+.footer-text{
+    color:white;
+    margin-left: 5%;
 }
 
 .back-to-top {
   position: fixed;
   bottom: 10px;
   right: 10px;
-  color: aqua;
+  color: whitesmoke;
+  margin-bottom: 10px;
+  tab-size: 10px;
 }
 
 .back-to-top:hover {
