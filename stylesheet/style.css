@@ -1,96 +1,102 @@
+<<<<<<< HEAD
 /* Generella */ 
 @font-face {
   font-family: "Chakra Petch", sans-serif;
   src: url(https://fonts.googleapis.com/css?family=Chakra+Petch);
+=======
+/* Generella */
+@font-face{
+    font-family: "Chakra Petch", sans-serif; 
+    src: url(https://fonts.googleapis.com/css?family=Chakra+Petch); 
+>>>>>>> bf4d3a10c333400c1bd526be62bac85dcda6e87b
 }
 
-@font-face {
-  font-family: "Bai Jamjuree", sans-serif;
-  src: url(https://fonts.googleapis.com/css?family=Bai+Jamjuree);
+@font-face{
+    font-family: "Bai Jamjuree", sans-serif; 
+    src: url(https://fonts.googleapis.com/css?family=Bai+Jamjuree);
 }
 
-@font-face {
-  font-family: "Open Sans Condensed", sans-serif;
-  src: url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@font-face{
+    font-family: "Open Sans Condensed", sans-serif; 
+    src: url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300); 
 }
 
-* {
-  box-sizing: border-box;
+*{
+    box-sizing: border-box; 
 }
 
-body {
-  font-family: "open sans condensed", sans-serif;
-  background-color: rgb(235, 235, 228);
+body{
+    font-family: "open sans condensed", sans-serif; 
+    background-color: rgb(235, 235, 228);
 }
 
-h1,
-h2,
-h3 {
-  font-family: "bai jamjuree", sans-serif;
+h1, h2, h3{
+    font-family: "bai jamjuree", sans-serif; 
 }
 
-.rubrik {
-  font-family: "chakra petch", sans-serif;
+.rubrik{
+ font-family: "chakra petch", sans-serif; 
 }
 
-a {
-  text-decoration: none;
-  display: block;
+a{
+    text-decoration: none;
+    display: block; 
+}
+ul li {
+  list-style-type: none;
 }
 
 /* Mobil */
 
-.container {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+.container{
+    width: 100%;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+p{
+    padding-left: 7px; 
+    padding-right: 10px; 
 }
 
 .dropbtn {
-  width: 100%;
-  background-color: rgb(91, 120, 131);
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  border-radius: 7px;
+    width: 100%; 
+    background-color: rgb(91, 120, 131);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 7px; 
 }
 
 .dropdown {
-  width: 49%;
-  position: relative;
-  display: inline-block;
+    width: 49%; 
+    position: relative;
+    display: inline-block;
 }
 
-.index {
-  width: 100%;
+.index{
+    width: 100%; 
 }
 
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #ddbc95;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-  border-radius: 7px;
+    display: none;
+    position: absolute;
+    background-color: #ddbc95;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 7px; 
 }
 
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
 }
 
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
+<<<<<<< HEAD
 .dropdown:hover .dropbtn {
   background-color: #626d71;
 }
@@ -119,34 +125,41 @@ a {
   margin-bottom: 10px;
   tab-size: 10px;
 }
+=======
+.dropdown-content a:hover {background-color: #ddd;}
 
-.back-to-top:hover {
-  color: #626d71;
+.dropdown:hover .dropdown-content {display: block;}
+>>>>>>> bf4d3a10c333400c1bd526be62bac85dcda6e87b
+
+.dropdown:hover .dropbtn {background-color: #626D71;}
+
+footer{
+    width: 100%;
+    height: 150px;
+    background: #000;
 }
 
-.text-margin {
-  margin: 5px 5px 0px;
+.text-margin{
+    margin: 5px 5px 0px;
 }
 
-img {
-  width: 99%;
+img{
+    width: 99%; 
 }
 
-div.container figure {
-  margin: 5px;
-  margin-bottom: 20px;
-}
+div.container figure{
+      margin: 5px;
+      margin-bottom: 20px; 
+  }
 
-/* Desktop */
-
-/* test */
+  /* slideshow */
 
 div.wrap,
 .image {
-  width: 100%;
+  width: 100%; 
   max-width: 375px;
   position: relative;
-  margin: auto;
+  margin: auto; 
 }
 
 div.wrap {
@@ -155,13 +168,13 @@ div.wrap {
   background: rgb(235, 235, 228);
   font-size: 0;
   line-height: 0;
-  padding-top: 10px;
+  padding-top: 10px; 
   overflow: hidden; /* Döljer allt utanför */
   white-space: nowrap; /* Får text osv att ligga på samma rad */
 }
 
 .image {
-  color: #fff;
+  color: #FFF;
   display: inline-block;
   font-size: 20px;
   height: 100%;
@@ -172,31 +185,86 @@ div.wrap {
 .image:first-child {
   animation: slide 20s;
   animation-iteration-count: infinite;
-  animation-timing-function: linear;
+  animation-timing-function: linear; 
 }
 
 @keyframes slide {
-  0%,
-  15% {
-    margin-left: 0;
+    0%, 15% {
+      margin-left: 0;
+    }
+    20%, 35% {
+      margin-left: -100%;
+    }
+    40%, 55% {
+      margin-left: -200%;
+    }
+    60%, 75% {
+      margin-left: -300%;
+    }
+    80%, 95%{
+        margin-left: -400%;
+    }
+    100%{
+        margin-left: -500%;
+    }
   }
-  20%,
-  35% {
-    margin-left: -100%;
+
+/* Desktop */ 
+@media (min-width: 760px) {
+  body {
+    max-width: 960px;
+    min-width: 420px;
+    margin: auto;
   }
-  40%,
-  55% {
-    margin-left: -200%;
+  .dropdown {
+    display: none;
   }
-  60%,
-  75% {
-    margin-left: -300%;
+  #nav-desktop{
+      display: block;
   }
-  80%,
-  95% {
-    margin-left: -400%;
+  #nav-desktop ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      background-color: rgb(91, 120, 131);
+      border-radius: 7px;
+      display: flex;
+      justify-content: space-evenly;
   }
-  100% {
-    margin-left: -500%;
+  #nav-desktop li{
+      display: inline-block;    
   }
+  #nav-desktop a {
+      color: white;
+      padding: 8px;
+      width: 20%;
+  }
+  #nav-desktop li:hover{
+    background-color: #626d71;
+  }
+  /* .float-right{
+      float: right;
+  } */
+
+  body{
+    max-width: 960px;
+    min-width: 420px; 
+    margin: auto; 
 }
+div.wrap, .image{
+    max-width: 850px;
+    height: 100%; 
+    max-height: 350px; 
+    margin-top: 10px;
+    margin-bottom: 20px; 
+}
+
+.article p{
+    width: 48%; 
+    float: left; 
+    font-size: 1.2em;
+    margin-right: 2%; 
+}
+
+
+} /* slut på media */
