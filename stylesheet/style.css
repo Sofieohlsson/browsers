@@ -96,6 +96,9 @@ p, h1, h2, h3{
 .dropdown:hover .dropbtn {
   background-color: #626d71;
 }
+#nav-desktop, #nav-desktop-side{
+    display: none;
+}
 
 .footer {
     width: 100%;
@@ -210,12 +213,14 @@ div.wrap {
     min-width: 420px;
     margin: auto;
   }
+  /* Navigation */
   .dropdown {
     display: none;
   }
   #nav-desktop{
       display: block;
   }
+  /* Main Nav */
   #nav-desktop ul{
       margin: 0;
       padding: 0;
@@ -227,14 +232,35 @@ div.wrap {
     #nav-desktop li{
         display: inline-block;    
         list-style-type: none;
+    }
+    #nav-desktop a {
+        color: white;
+        padding: 8px;
+        width: 20%;
+    }
+    #nav-desktop li:hover{
+        background-color: #626d71;
+    }
+    /* Side Nav */
+    #nav-desktop-side{
+        display: block;
+    }
+    #nav-desktop-side ul{
+        margin: 0;
+        padding: 0;
+        background-color: rgb(91, 120, 131);
+        border-radius: 7px;
   }
-  #nav-desktop a {
+  #nav-desktop-side li{
+      display: block;
+  }
+  #nav-desktop-side a{
       color: white;
       padding: 8px;
-      width: 20%;
+      width: auto;
   }
-  #nav-desktop li:hover{
-    background-color: #626d71;
+  #nav-desktop-side li:hover{
+      background-color: #626d71;
   }
   /* .float-right{
       float: right;
