@@ -1,7 +1,7 @@
-/* Generella */
-@font-face{
-    font-family: "Chakra Petch", sans-serif; 
-    src: url(https://fonts.googleapis.com/css?family=Chakra+Petch); 
+/* Generella */ 
+@font-face {
+  font-family: "Chakra Petch", sans-serif;
+  src: url(https://fonts.googleapis.com/css?family=Chakra+Petch);
 }
 
 @font-face{
@@ -89,6 +89,34 @@ p, h1, h2, h3{
     display: block;
 }
 
+.dropdown:hover .dropbtn {
+  background-color: #626d71;
+}
+
+.footer {
+    width: 100%;
+    height: 20%;
+    background: #000;
+    position: relative;
+    padding-bottom: 2px;
+    bottom: 10px;
+    border-radius: 7px;
+    margin: 0px auto;
+    margin-top: 20%;
+}
+.footer-text{
+    color:white;
+    margin-left: 5%;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  color: whitesmoke;
+  margin-bottom: 10px;
+  tab-size: 10px;
+}
 .dropdown-content a:hover {background-color: #ddd;}
 
 .dropdown:hover .dropdown-content {display: block;}
