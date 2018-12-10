@@ -252,6 +252,7 @@ div.wrap {
     }
     #nav-desktop li:hover{
         background-color: #626d71;
+        border-radius: 7px;
     }
     /* Side Nav */
     #nav-desktop-side{
@@ -276,6 +277,7 @@ div.wrap {
   }
   #nav-desktop-side li:hover{
       background-color: #626d71;
+      border-radius:7px;
   }
   /* .float-right{
       float: right;
