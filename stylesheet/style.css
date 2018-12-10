@@ -20,7 +20,12 @@
 
 body{
     font-family: "open sans condensed", sans-serif; 
-    background-color: rgb(235, 235, 228);
+    background-color: rgb(240, 230, 238);
+}
+div.info-box{
+    background-color: white;
+    padding-bottom: 10px;
+    border-radius: 10px;
 }
 
 h1, h2, h3{
@@ -101,17 +106,18 @@ p, h1, h2, h3{
 }
 
 .footer {
-    width: 100%;
-    height: 40%;
-    background: #000;
+/*     width: 100%;
+    height: 40%; */
+    background: rgb(82, 86, 90);
     position: relative;
-    padding-bottom: 2px;
     bottom: 10px;
     border-radius: 4px;
-    margin: 0px auto;
-    margin-top: 40%;
+    border: 1px solid;
+    margin-top: 20px;
+    padding-bottom: 2px;
 }
 .footer-text{
+    padding-top: 10px;
     color:white;
     margin-left: 5%;
 }
@@ -125,17 +131,20 @@ p, h1, h2, h3{
   margin-right: 10px;
   tab-size: 10px;
 }
+.back-to-top:hover{
+    color: rgb(91, 120, 131);
+}
 .dropdown-content a:hover {background-color: #ddd;}
 
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: #626D71;}
 
-footer{
+/* footer{
     width: 100%;
     height: 150px;
     background: #000;
-}
+} */
 
 .text-margin{
     margin: 5px 5px 0px;
@@ -219,6 +228,7 @@ div.wrap {
   }
   #nav-desktop{
       display: block;
+      margin-bottom: 20px;
   }
   /* Main Nav */
   #nav-desktop ul{
@@ -232,11 +242,14 @@ div.wrap {
     #nav-desktop li{
         display: inline-block;    
         list-style-type: none;
+        width: 100%;
+        text-align: center;
     }
     #nav-desktop a {
         color: white;
-        padding: 8px;
-        width: 20%;
+        padding-top: 25px;
+        height: 80px;
+        font-size: 1.5em;
     }
     #nav-desktop li:hover{
         background-color: #626d71;
@@ -244,6 +257,7 @@ div.wrap {
     /* Side Nav */
     #nav-desktop-side{
         display: block;
+        padding-top: 5px;
     }
     #nav-desktop-side ul{
         margin: 0;
@@ -258,6 +272,7 @@ div.wrap {
       color: white;
       padding: 8px;
       width: auto;
+      height: 50px;
   }
   #nav-desktop-side li:hover{
       background-color: #626d71;
@@ -283,7 +298,8 @@ div.wrap, .image{
 
 .info-box{
     width: 78%;
-    float: right; 
+    float: right;
+    height: 800px; 
 }
 
 .nav-box{
@@ -321,7 +337,7 @@ figure img:hover{
         display: grid;
         max-width: 960px;
         grid-template-columns: auto auto;
-        grid-template-rows: 50px auto auto 50px;
+        grid-template-rows: 80px auto auto 80px;
     }
 
 #nav-desktop{
@@ -350,7 +366,7 @@ figure img:hover{
         display: grid;
         max-width: 960px;
         grid-template-columns: 192px auto; 
-        grid-template-rows: 50px auto 50px; 
+        grid-template-rows: 80px auto 80px; 
         grid-gap: 20px;  
         margin: 0;
     }
