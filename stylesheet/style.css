@@ -276,6 +276,7 @@ div.wrap {
       width: auto;
       height: 60px;
       font-size: 1.2em;
+      border-bottom: 1px solid white;
   }
   #nav-desktop-side li:hover{
       background-color: #626d71;
