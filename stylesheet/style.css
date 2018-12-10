@@ -113,7 +113,7 @@ p, h1, h2, h3{
     bottom: 10px;
     border-radius: 4px;
     border: 1px solid;
-    margin-top: 30%;
+    margin-top: 20px;
     padding-bottom: 2px;
 }
 .footer-text{
@@ -172,7 +172,7 @@ div.wrap,
 div.wrap {
   height: 100%;
   max-height: 165px;
-  background: rgb(235, 235, 228);
+  /* background: rgb(235, 235, 228); */
   font-size: 0;
   line-height: 0;
   padding-top: 10px; 
@@ -229,6 +229,7 @@ div.wrap {
   }
   #nav-desktop{
       display: block;
+      margin-bottom: 20px;
   }
   /* Main Nav */
   #nav-desktop ul{
@@ -242,11 +243,14 @@ div.wrap {
     #nav-desktop li{
         display: inline-block;    
         list-style-type: none;
+        width: 100%;
+        text-align: center;
     }
     #nav-desktop a {
         color: white;
-        padding: 8px;
-        width: 20%;
+        padding-top: 25px;
+        height: 80px;
+        font-size: 1.5em;
     }
     #nav-desktop li:hover{
         background-color: #626d71;
@@ -254,6 +258,7 @@ div.wrap {
     /* Side Nav */
     #nav-desktop-side{
         display: block;
+        padding-top: 5px;
     }
     #nav-desktop-side ul{
         margin: 0;
@@ -268,6 +273,7 @@ div.wrap {
       color: white;
       padding: 8px;
       width: auto;
+      height: 50px;
   }
   #nav-desktop-side li:hover{
       background-color: #626d71;
@@ -293,7 +299,8 @@ div.wrap, .image{
 
 .info-box{
     width: 78%;
-    float: right; 
+    float: right;
+    height: 800px; 
 }
 
 .nav-box{
