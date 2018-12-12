@@ -303,9 +303,6 @@ div.wrap {
   #nav-desktop li:active {
     background-color: green;
   }
-  /* .float-right{
-        float: right;
-    } */
 
   div.wrap,
   .image {
