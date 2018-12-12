@@ -272,11 +272,12 @@ div.wrap {
   }
   #nav-desktop-side a{
       color: white;
-      padding: 17px 0px 0px 25px;
+      padding: 17px 0px 0px 5px;
       width: auto;
       height: 60px;
       font-size: 1.2em;
       border-bottom: 1px solid white;
+      text-align: center;
   }
   #nav-desktop-side li:hover{
       background-color: #626d71;
