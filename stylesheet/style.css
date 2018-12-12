@@ -32,7 +32,8 @@ div.info-box {
 
 h1,
 h2,
-h3 {
+h3, 
+h4 {
   font-family: "bai jamjuree", sans-serif;
 }
 
@@ -63,7 +64,8 @@ ul li {
 p,
 h1,
 h2,
-h3 {
+h3, 
+h4 {
   padding-left: 7px;
   padding-right: 10px;
 }
