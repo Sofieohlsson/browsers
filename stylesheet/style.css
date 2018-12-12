@@ -121,8 +121,6 @@ p{
 .footer-pic{
     width: 100%;
     height: auto;
-    border-radius: 5px;
-
 }
 
 .back-to-top {
@@ -268,28 +266,31 @@ div.wrap {
         padding: 0;
         background-color: rgb(91, 120, 131);
         border-radius: 7px;
-  }
-  #nav-desktop-side li{
-      display: block;
-  }
-  #nav-desktop-side a{
-      color: white;
-      padding: 17px 0px 0px 5px;
-      width: auto;
-      height: 60px;
-      font-size: 1.2em;
-      border-bottom: 1px solid white;
-      text-align: center;
-  }
-  #nav-desktop-side li:hover{
-      background-color: #626d71;
-      border-radius:7px;
-  }
-  /* .float-right{
-      float: right;
-  } */
-
-div.wrap, .image{
+    }
+    #nav-desktop-side li{
+        display: block;
+    }
+    #nav-desktop-side a{
+        color: white;
+        padding: 17px 0px 0px 5px;
+        width: auto;
+        height: 60px;
+        font-size: 1.2em;
+        border-bottom: 1px solid white;
+        text-align: center;
+    }
+    #nav-desktop-side li:hover{
+        background-color: #626d71;
+        border-radius:7px;
+    }
+    #nav-desktop li:active{
+        background-color: green;
+    }
+    /* .float-right{
+        float: right;
+    } */
+    
+    div.wrap, .image{
     max-width: 850px;
     height: 100%; 
     max-height: 350px; 
@@ -308,7 +309,7 @@ div.wrap, .image{
 .info-box{
     width: 78%;
     float: right;
-    height: 800px; 
+    /* height: 800px;  */
 }
 
 .nav-box{
@@ -334,72 +335,6 @@ figure img:hover{
     transform: scale(1.5); 
     margin-top: 70px; 
     margin-bottom: 30px; 
-}
-
-@supports(display: grid){
-    .grid-contain, #nav-desktop, #nav-desktop-side, .info-box, .footer{
-        height: initial;
-        width: initial;
-    }
-
-    .grid-container{
-        display: grid;
-        max-width: 960px;
-        grid-template-columns: auto auto;
-        grid-template-rows: 80px auto auto 80px;
-    }
-
-#nav-desktop{
-    grid-column: 1/ span 2;
-    grid-row: 1;
-}
-
-.wrap{
-    grid-column: 1/ span 2; 
-    grid-row: 2; 
-}
-
-.article{
-    grid-column: auto; 
-    grid-row: 3; 
-}
-
-.footer{
-    grid-column: 1 / span 2; 
-    grid-row: 4; 
-}
-
-
-    
-    .grid-contain{
-        display: grid;
-        max-width: 960px;
-        grid-template-columns: 192px auto; 
-        grid-template-rows: 80px auto 80px; 
-        grid-gap: 20px;  
-        margin: 0;
-    }
-    
-    #nav-desktop{
-        grid-column: 1 /span 2; 
-        grid-row: 1; 
-    }
-    
-    #nav-desktop-side{
-        grid-column: 1; 
-        grid-row: 2; 
-    }
-    
-    .info-box{
-        grid-column: 2; 
-        grid-row: 2; 
-    }
-    
-    .footer{
-        grid-column: 1 /span 2; 
-        grid-row: 3; 
-    }
-    
 }
 
 } /* slut på media */
