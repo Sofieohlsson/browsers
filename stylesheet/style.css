@@ -26,6 +26,7 @@ div.info-box{
     background-color: white;
     padding-bottom: 10px;
     border-radius: 10px;
+    line-height: 1.7;
     min-height: 600px;
 }
 
@@ -271,10 +272,11 @@ div.wrap {
   }
   #nav-desktop-side a{
       color: white;
-      padding: 17px 0px 0px 7px;
+      padding: 17px 0px 0px 25px;
       width: auto;
       height: 60px;
       font-size: 1.2em;
+      border-bottom: 1px solid white;
   }
   #nav-desktop-side li:hover{
       background-color: #626d71;
@@ -297,6 +299,7 @@ div.wrap, .image{
     float: left; 
     font-size: 1.2em;
     margin-right: 2%; 
+    line-height: 1.5;
 }
 
 .info-box{
