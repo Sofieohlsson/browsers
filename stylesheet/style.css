@@ -366,8 +366,6 @@ figure img:hover{
     grid-row: 4; 
 }
 
-
-    
     .grid-contain{
         display: grid;
         max-width: 960px;
