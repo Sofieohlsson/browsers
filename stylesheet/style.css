@@ -120,6 +120,7 @@ p{
 }
 .footer-pic{
     width: 100%;
+    min-height: 215px;
     height: auto;
     border-radius: 5px;
 
