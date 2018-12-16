@@ -296,9 +296,7 @@ div.wrap {
     background-color: #626d71;
     border-radius: 7px;
   }
-  #nav-desktop li:active {
-    background-color: green;
-  }
+
 
   div.wrap,
   .image {
